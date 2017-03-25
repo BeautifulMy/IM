@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.myproject.demo1.view.ConversationFragment">
+    <include layout="@layout/header"/>
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/default_avatar"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:background="@drawable/btn_exit_selector"
+        android:text="退出"/>
+
+</LinearLayout>
